@@ -3,6 +3,14 @@
 # ตั้งค่าการเชื่อมต่อฐานข้อมูล
 
 <p>application/config/database.php</p>
+<pre>
+	'hostname' => 'localhost',
+	'username' => 'root',
+	'password' => '',
+	'database' => 'test',
+	'dbdriver' => 'mysqli',
+</pre>
+
 https://codeigniter.com/user_guide/database/configuration.html
 
 # สร้างตารางเก็บ Session
