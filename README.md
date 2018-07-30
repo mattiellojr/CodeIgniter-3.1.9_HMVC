@@ -9,6 +9,7 @@ https://codeigniter.com/user_guide/database/configuration.html
 https://codeigniter.com/user_guide/libraries/sessions.html?highlight=session#database-driver
 
 <blockquote>
+<pre>
 CREATE TABLE IF NOT EXISTS `ci_sessions` (
         `id` varchar(128) NOT NULL,
         `ip_address` varchar(45) NOT NULL,
@@ -16,4 +17,5 @@ CREATE TABLE IF NOT EXISTS `ci_sessions` (
         `data` blob NOT NULL,
         KEY `ci_sessions_timestamp` (`timestamp`)
 );
+</pre>
 </blockquote>
